@@ -1,0 +1,111 @@
+body {
+    font-size: 1.25rem;
+    /* height: 100vh; */
+}
+
+.scroll-button {
+    height: 250px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.bg-nav-bar {
+    background-color: #1FAEE9;
+    bottom: 2px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-top: 6rem;
+    background: #156486;
+    padding: 1rem 0;
+    color: white;
+}
+
+.footer_inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer_info {
+    display: flex;
+    align-items: center;
+
+}
+
+.footer_copyright {
+    font-size: 0.9rem;
+    color: white;
+    border-right: 1px solid white;
+    padding-right: 1rem;
+    margin-right: 1rem;
+}
+
+.footer_social {
+    display: flex;
+    align-items: center;
+}
+
+.footer_link {
+    margin-right: 1rem;
+}
+
+
+footer i {
+    display: block;
+}
+
+
+/* New str */
+.img-card img {
+    width: 30%;
+    height: 50%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    opacity: 1;
+    /* display: block; */
+}
+
+.label-card {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: 700;
+}
+
+.card:hover .image-new {
+    opacity: 0.3;
+}
+
+.card:hover .label-card {
+    opacity: 1;
+}
+
+.block-video {
+    width: 100%;
+    height: 90vh;
+}
+
+.alert-file {
+    font-size: 17px;
+    margin-top: -24px;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 0.9rem;
+    }
+}
